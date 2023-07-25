@@ -7,7 +7,7 @@ on:
     branches:
     - main
   schedule:
-    - cron: "0 15 6 ? * SUN *"
+    - cron: "15 6 * * SUN"
 
 jobs:
   my_job:
